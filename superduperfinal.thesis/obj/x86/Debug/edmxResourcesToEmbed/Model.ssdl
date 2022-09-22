@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbconModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.3.5" ProviderManifestToken="3.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="dbconModelStoreContainer">
+    <EntitySet Name="logs" EntityType="dbconModel.Store.logs" store:Type="Tables" />
+    <EntitySet Name="tbl_people" EntityType="dbconModel.Store.tbl_people" store:Type="Tables" />
+  </EntityContainer>
+  <EntityType Name="logs">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Role" Type="nvarchar" MaxLength="100" />
+    <Property Name="Date_time" Type="nvarchar" MaxLength="100" />
+    <Property Name="Activity" Type="nvarchar" MaxLength="100" />
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="tbl_people">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nick Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="First Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Middle Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Last Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Street Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="House #" Type="nvarchar" MaxLength="100" />
+    <Property Name="Birthday" Type="nvarchar" MaxLength="100" />
+    <Property Name="Gender" Type="nvarchar" MaxLength="100" />
+    <Property Name="Status" Type="nvarchar" MaxLength="100" />
+    <Property Name="Birthplace" Type="nvarchar" MaxLength="255" />
+    <Property Name="Occupation" Type="nvarchar" MaxLength="100" />
+    <Property Name="Records" Type="nvarchar" MaxLength="100" />
+    <Property Name="Age" Type="nvarchar" MaxLength="100" />
+    <Property Name="Image" Type="image" />
+    <Property Name="Stats" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+</Schema>

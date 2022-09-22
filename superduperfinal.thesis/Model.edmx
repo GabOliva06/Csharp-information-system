@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="dbconModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.3.5" ProviderManifestToken="3.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="dbconModelStoreContainer">
+          <EntitySet Name="logs" EntityType="dbconModel.Store.logs" store:Type="Tables" />
+          <EntitySet Name="tbl_people" EntityType="dbconModel.Store.tbl_people" store:Type="Tables" />
+        </EntityContainer>
+        <EntityType Name="logs">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="Name" Type="nvarchar" MaxLength="100" />
+          <Property Name="Role" Type="nvarchar" MaxLength="100" />
+          <Property Name="Date_time" Type="nvarchar" MaxLength="100" />
+          <Property Name="Activity" Type="nvarchar" MaxLength="100" />
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="tbl_people">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nick Name" Type="nvarchar" MaxLength="100" />
+          <Property Name="First Name" Type="nvarchar" MaxLength="100" />
+          <Property Name="Middle Name" Type="nvarchar" MaxLength="100" />
+          <Property Name="Last Name" Type="nvarchar" MaxLength="100" />
+          <Property Name="Street Name" Type="nvarchar" MaxLength="100" />
+          <Property Name="House #" Type="nvarchar" MaxLength="100" />
+          <Property Name="Birthday" Type="nvarchar" MaxLength="100" />
+          <Property Name="Gender" Type="nvarchar" MaxLength="100" />
+          <Property Name="Status" Type="nvarchar" MaxLength="100" />
+          <Property Name="Birthplace" Type="nvarchar" MaxLength="255" />
+          <Property Name="Occupation" Type="nvarchar" MaxLength="100" />
+          <Property Name="Records" Type="nvarchar" MaxLength="100" />
+          <Property Name="Age" Type="nvarchar" MaxLength="100" />
+          <Property Name="Image" Type="image" />
+          <Property Name="Stats" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="dbconModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="dbconEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="logs" EntityType="dbconModel.logs" />
+          <EntitySet Name="tbl_people" EntityType="dbconModel.tbl_people" />
+        </EntityContainer>
+        <EntityType Name="logs">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="Name" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Role" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Date_time" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Activity" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="tbl_people">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nick_Name" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="First_Name" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Middle_Name" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Last_Name" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Street_Name" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="House__" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Birthday" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Gender" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Status" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Birthplace" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+          <Property Name="Occupation" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Records" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Age" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="Stats" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="dbconModelStoreContainer" CdmEntityContainer="dbconEntities">
+          <EntitySetMapping Name="logs"><EntityTypeMapping TypeName="dbconModel.logs"><MappingFragment StoreEntitySet="logs">
+            <ScalarProperty Name="Name" ColumnName="Name" />
+            <ScalarProperty Name="Role" ColumnName="Role" />
+            <ScalarProperty Name="Date_time" ColumnName="Date_time" />
+            <ScalarProperty Name="Activity" ColumnName="Activity" />
+            <ScalarProperty Name="ID" ColumnName="ID" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="tbl_people"><EntityTypeMapping TypeName="dbconModel.tbl_people"><MappingFragment StoreEntitySet="tbl_people">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="Nick_Name" ColumnName="Nick Name" />
+            <ScalarProperty Name="First_Name" ColumnName="First Name" />
+            <ScalarProperty Name="Middle_Name" ColumnName="Middle Name" />
+            <ScalarProperty Name="Last_Name" ColumnName="Last Name" />
+            <ScalarProperty Name="Street_Name" ColumnName="Street Name" />
+            <ScalarProperty Name="House__" ColumnName="House #" />
+            <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+            <ScalarProperty Name="Gender" ColumnName="Gender" />
+            <ScalarProperty Name="Status" ColumnName="Status" />
+            <ScalarProperty Name="Birthplace" ColumnName="Birthplace" />
+            <ScalarProperty Name="Occupation" ColumnName="Occupation" />
+            <ScalarProperty Name="Records" ColumnName="Records" />
+            <ScalarProperty Name="Age" ColumnName="Age" />
+            <ScalarProperty Name="Image" ColumnName="Image" />
+            <ScalarProperty Name="Stats" ColumnName="Stats" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Model">
+        <EntityTypeShape EntityType="dbconModel.logs" Width="1.5" PointX="0.75" PointY="0.75" Height="1.9802864583333331" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbconModel.tbl_people" Width="1.5" PointX="2.75" PointY="0.75" Height="4.0956022135416656" IsExpanded="true" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbconModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="dbconEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="logs" EntityType="dbconModel.logs" />
+    <EntitySet Name="tbl_people" EntityType="dbconModel.tbl_people" />
+  </EntityContainer>
+  <EntityType Name="logs">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Name" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Role" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Date_time" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Activity" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="tbl_people">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nick_Name" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="First_Name" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Middle_Name" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Last_Name" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Street_Name" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="House__" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Birthday" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Gender" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Birthplace" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Occupation" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Records" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Age" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Stats" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+  </EntityType>
+</Schema>

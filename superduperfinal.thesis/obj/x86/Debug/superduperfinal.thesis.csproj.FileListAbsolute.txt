@@ -1,0 +1,54 @@
+C:\Users\gab\Documents\Visual Studio 2010\Projects\superduperfinal.thesis\superduperfinal.thesis\bin\Debug\dbcon.sdf
+C:\Users\gab\Documents\Visual Studio 2010\Projects\superduperfinal.thesis\superduperfinal.thesis\bin\Debug\superduperfinal.thesis.exe.config
+C:\Users\gab\Documents\Visual Studio 2010\Projects\superduperfinal.thesis\superduperfinal.thesis\bin\Debug\superduperfinal.thesis.exe
+C:\Users\gab\Documents\Visual Studio 2010\Projects\superduperfinal.thesis\superduperfinal.thesis\bin\Debug\superduperfinal.thesis.pdb
+C:\Users\gab\Documents\Visual Studio 2010\Projects\superduperfinal.thesis\superduperfinal.thesis\bin\Debug\itextsharp.dll
+C:\Users\gab\Documents\Visual Studio 2010\Projects\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\gab\Documents\Visual Studio 2010\Projects\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.Form1.resources
+C:\Users\gab\Documents\Visual Studio 2010\Projects\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.Form2.resources
+C:\Users\gab\Documents\Visual Studio 2010\Projects\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.Form3.resources
+C:\Users\gab\Documents\Visual Studio 2010\Projects\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.Form4.resources
+C:\Users\gab\Documents\Visual Studio 2010\Projects\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.Form5.resources
+C:\Users\gab\Documents\Visual Studio 2010\Projects\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.Properties.Resources.resources
+C:\Users\gab\Documents\Visual Studio 2010\Projects\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\gab\Documents\Visual Studio 2010\Projects\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\gab\Documents\Visual Studio 2010\Projects\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.exe
+C:\Users\gab\Documents\Visual Studio 2010\Projects\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.pdb
+C:\Users\Admin\Documents\Gabriell-Oliva\b190\C# system\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Gabriell-Oliva\b190\C# system\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.Form1.resources
+C:\Users\Admin\Documents\Gabriell-Oliva\b190\C# system\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.Form2.resources
+C:\Users\Admin\Documents\Gabriell-Oliva\b190\C# system\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.Form3.resources
+C:\Users\Admin\Documents\Gabriell-Oliva\b190\C# system\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.Form4.resources
+C:\Users\Admin\Documents\Gabriell-Oliva\b190\C# system\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.Form5.resources
+C:\Users\Admin\Documents\Gabriell-Oliva\b190\C# system\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.Properties.Resources.resources
+C:\Users\Admin\Documents\Gabriell-Oliva\b190\C# system\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Gabriell-Oliva\b190\C# system\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Gabriell-Oliva\b190\C# system\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.exe
+C:\Users\Admin\Documents\Gabriell-Oliva\b190\C# system\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.pdb
+C:\Users\Admin\Documents\Gabriell-Oliva\b190\C# system\superduperfinal.thesis\superduperfinal.thesis\bin\Debug\dbcon.sdf
+C:\Users\Admin\Documents\Gabriell-Oliva\b190\C# system\superduperfinal.thesis\superduperfinal.thesis\bin\Debug\superduperfinal.thesis.exe.config
+C:\Users\Admin\Documents\Gabriell-Oliva\b190\C# system\superduperfinal.thesis\superduperfinal.thesis\bin\Debug\superduperfinal.thesis.exe
+C:\Users\Admin\Documents\Gabriell-Oliva\b190\C# system\superduperfinal.thesis\superduperfinal.thesis\bin\Debug\superduperfinal.thesis.pdb
+C:\Users\Admin\Documents\Gabriell-Oliva\b190\C# system\superduperfinal.thesis\superduperfinal.thesis\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Admin\Documents\Gabriell-Oliva\b190\C# system\superduperfinal.thesis\superduperfinal.thesis\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\Admin\Documents\Gabriell-Oliva\b190\C# system\superduperfinal.thesis\superduperfinal.thesis\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Admin\Documents\Gabriell-Oliva\b190\C# system\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.csproj.CopyComplete
+C:\Users\Admin\Documents\Visual Studio 2022\superduperfinal.thesis\superduperfinal.thesis\bin\Debug\dbcon.sdf
+C:\Users\Admin\Documents\Visual Studio 2022\superduperfinal.thesis\superduperfinal.thesis\bin\Debug\superduperfinal.thesis.exe.config
+C:\Users\Admin\Documents\Visual Studio 2022\superduperfinal.thesis\superduperfinal.thesis\bin\Debug\superduperfinal.thesis.exe
+C:\Users\Admin\Documents\Visual Studio 2022\superduperfinal.thesis\superduperfinal.thesis\bin\Debug\superduperfinal.thesis.pdb
+C:\Users\Admin\Documents\Visual Studio 2022\superduperfinal.thesis\superduperfinal.thesis\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Admin\Documents\Visual Studio 2022\superduperfinal.thesis\superduperfinal.thesis\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\Admin\Documents\Visual Studio 2022\superduperfinal.thesis\superduperfinal.thesis\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Admin\Documents\Visual Studio 2022\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2022\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.Form1.resources
+C:\Users\Admin\Documents\Visual Studio 2022\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.Form2.resources
+C:\Users\Admin\Documents\Visual Studio 2022\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.Form3.resources
+C:\Users\Admin\Documents\Visual Studio 2022\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.Form4.resources
+C:\Users\Admin\Documents\Visual Studio 2022\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.Form5.resources
+C:\Users\Admin\Documents\Visual Studio 2022\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2022\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Visual Studio 2022\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2022\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.csproj.CopyComplete
+C:\Users\Admin\Documents\Visual Studio 2022\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.exe
+C:\Users\Admin\Documents\Visual Studio 2022\superduperfinal.thesis\superduperfinal.thesis\obj\x86\Debug\superduperfinal.thesis.pdb
